@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+      .nav-link::after{
+          content:'';
+          display:block;
+          width:0px;
+          height:3px;
+          background-color:crimson;
+          transition:width 0.3s;
+          align-content: center;
+          margin:10px 0px 0px;
+        }
+        .nav-link:hover{
+          color:black;
+        } 
+        .nav-link.active::after,
+        .nav-link:hover::after{
+          width:100%;
+          
+        }
+        .col .form-control{
+          
+          border-radius:8px; 
+          border:none;
+          outline:none;
+          
+        }
+        .col .form-control:focus{
+          border:1px solid black;
+        }
+       
+       
+    </style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>layer3</title>
+  </head>
+  <!-- navigation bar -->
+   
+  <header class="sticky-top" style="background-color:white;box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);">
+    <navbar class="container d-flex justify-content-between">
+      <div>
+        <img src="img/logo.png"alt="" width="180px" height="100px" style="padding:12px 0px;">
+      </div>
+      <ul class="nav"style="padding:28px 1px 6px;" >
+     
+       <li class="nav-item">
+        <a class="nav-link " href="/index.html"style="font-size:18px;text-transform:uppercase ;color:black;">Home</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="/layer2.html"style="font-size:18px;text-transform:uppercase ;color:black;">About us</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link active" href="/layer3.html"style="font-size:18px;text-transform:uppercase;color:black;">Contact us</a>
+       </li>
+     </ul>
+    </navbar>
+  </header>
+
+  <div style="background-color: rgba(226, 235, 238, 0.795);">
+    <div class="jumbotron" style=" background-image:repeating-linear-gradient(45deg,rgb(19, 219, 152) 20%,rgb(204, 26, 26) 17%);">
+      <div class="container">
+          <h2 style="color:white">Contact Us</h2>
+      </div>
+    </div>
+  
+    <h3 style="text-align: center;">Hire The Talent Not Just Qualification.</h3>
+    <p style="text-align: center;color:darkgrey;">Talk to us about new work</p>
+   
+
+  
+    <div class="container" style="padding:30px 180px;"  >
+      <form>
+        <div class="form-row">
+          <div class="col">
+            <input type="text" class="form-control"  placeholder="Full Name" required style="box-shadow: none;height:50px;" >
+           </div>
+           <div class="col">
+            <input type="text" class="form-control" placeholder="Mobile number" required style="box-shadow: none;height:50px;"  >
+          </div>
+          <div class="col">
+            <input type="text" class="form-control"  placeholder="Email adress" required style="box-shadow: none;height:50px;" >
+          </div>      
+        </div>
+        <div class="form-row" style="padding: 20px 0px;">
+          <div class="col">
+            <textarea class="form-control" placeholder="Your message" cols="50" rows="5" style="box-shadow: none;"></textarea>
+          </div>
+        </div>
+        <div style="text-align: center;padding:30px 0px;">
+          <button type="button" class="btn btn-info btn-outline-dark" style="border-radius:40px;height:60px;width:250px;color:white;border: 0px solid;">Submit your Request</button>
+        </div>
+      </form>     
+     </div>
+
+       
+      
+   
+  </div>
+   
+ 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>

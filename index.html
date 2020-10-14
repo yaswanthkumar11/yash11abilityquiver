@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <style>
+        
+         input:focus{
+          outline:none;
+          border:3px solid black;
+         }
+         p>a{
+           color:darkgrey; 
+           font-weight:500; 
+         }
+         P>a:hover{
+           color:darkgrey;
+           text-decoration: none;
+         }
+         .nav-link::after{
+          content:'';
+          display:block;
+          width:0px;
+          height:3px;
+          background-color:crimson;
+          transition:width 0.3s;
+          align-content: center;
+          margin:10px 0px 0px;
+         }
+         .nav-link:hover{
+          color:black;
+         } 
+         .nav-link.active::after,
+         .nav-link:hover::after{
+          width:100%;
+         }
+         .col-3 .card:hover{
+          transition:all 0.3s linear;
+          margin-top:-25px;
+          box-shadow: 2px 6px 6px 2px rgba(0, 0, 0, 0.2);
+         } 
+         .col-5 li{
+           color:darkgrey;
+           padding-bottom:15px;
+         }     
+         
+      </style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>layer1</title>
+  </head>
+  <body>
+
+   <!-- navigation bar -->
+   <header class="sticky-top" style="background-color:white;box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);">
+    <navbar class="container d-flex justify-content-between" >
+      <div>
+        <img src="img/logo.png"alt="" width="180px" height="100px" style="padding:10px 0px;">
+      </div>
+    <ul class="nav" style="padding:28px 1px 6px;" >
+     
+      <li class="nav-item">
+        <a class="nav-link active" href="/index.html"style="font-size:18px;text-transform:uppercase;color:black;">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/layer2.html"style="font-size:18px;text-transform:uppercase ;color:black;">About us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/layer3.html" style="font-size:18px;text-transform:uppercase;color:black;">Contact us</a>
+      </li>
+    </ul>
+  </navbar>
+   </header>
+   
+    
+  
+  
+   
+    <!-- position-1 -->
+
+    <div class="container"style="margin-top:70px;">
+        <div class="row">
+            <div class="col-5">
+                <h2 style="margin-bottom:30px;font-weight: bold;">Hire the Talent not just Qualification</h2>
+                <p style="font-size:22px; color:darkgrey;margin-bottom:30px;">Finding the quality candidate now a days involves a lot of time & money. Use amazing builtin filters from Ability Quiver to get the top rated employable candidates.</p>
+                <form>
+                    <input type="text" placeholder="E-mail"style="height:60px;width:210px;border-radius:40px;padding-left:10px;">
+                    <button type="button" class="btn btn-info btn-outline-dark" style="border-radius:40px;height:60px;width:170px;color:white;border: 0px solid;">Subscribe</button>
+                </form>
+                <p style="color:darkgrey;padding-top:3px;">Already using our service?<a href="#"> Sign in</a></p>
+            </div>
+            
+            <div class="col-7">
+                <img src="img/p1_bck.png" height="560px" width="900px" style="margin-left:-130px;margin-top:-30px">
+                <img src="img/p1_m1.png"  height="300px" width="660px" style="margin-top:-540px;margin-left:-70px;">
+            </div>
+        </div>
+
+        <!-- position-2 -->
+
+        <div class="row">
+            <div class="col">
+                <h2>AQ provides access to Top Talent directly</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <i class="fa fa-suitcase" aria-hidden="true" style="font-size:40px;margin:40px 0px 20px;padding:18px;color:green;border:lightgreen 1px solid;border-radius:60% 80% 60% 70%;background-color: lightgreen;"></i>
+            </div>
+            <div class="col-4">
+                <i class="fa fa-bolt" aria-hidden="true"style="font-size:40px;margin:40px 0px 20px;color:yellow;padding:18px;border:yellow 1px solid;border-radius:60% 80% 70% 70%;background-color:lightyellow"></i>
+            </div>
+            <div class="col-4">
+                <i class="fa fa-file" aria-hidden="true"style="font-size:40px;margin:40px 0px 20px;color:hotpink;padding:18px;border-radius:60% 80% 60% 70%;border: 0px solid lightpink;background-color: lightpink; ;"></i>
+            </div>
+        </div>
+        <div class="row" style="padding:20px 0px ">
+            <div class="col-4">
+                <h4>Register</h4>
+            </div>
+            <div class="col-4">
+                <h4>Post Your Requirement</h4>
+            </div>
+            <div class="col-4">
+                <h4>Save Time & Money</h4>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-4">
+                <p style="color:darkgrey">Register and provide us relevent information so that we could help you with our tools and technologies.</p>
+            </div>
+            <div class="col-4">
+                <p  style="color:darkgrey">Let us know about your open positions and several preferences like skills, location, experience etc.</p>
+            </div>
+            <div class="col-4">
+                <p style="color:darkgrey">Hiring a candidate involves lot of expanditure on advertisement, interviews etc. Get the competent candidates at your door.</p>
+            </div>
+        </div>
+
+        <!-- position-3 -->
+
+        <div class="row"style="padding:80px 0px">
+            <div class="col-6" >
+                <h2 style="padding:20px 0px;">We use the network of expert evaluators to provide you the best bunch of talent.</h2>
+                <p style="color:darkgrey;font-size:17px;padding-bottom:20px;">We don't select candidate for you just by filtering resumes but our nework of expert evaluators help us to prepare talent pool based on their skill evaluation. So, you get only quality candidates.</p>
+                <button type="button" class="btn btn-info  btn-outline-dark" style="border-radius:40px;height:60px;width:170px;color:white;border: 0px solid;">Contact Us</button>
+            </div>
+           
+            <div class="col-6">
+                <img src="img/recruitment-agency-finding-best-employee-2710154-2264932.png" width="900px"height="500px" style="margin-top:-90px;margin-left:-150px;">
+            </div>
+        </div>
+    </div>
+
+    <!-- cards -->
+
+    <div class="container"style="margin-top:100px;">
+      <div class="row">
+        <div class="col-3"style="padding-top:80px;">
+          <h3 style="padding:20px 0px;">How to Calculate the Cost of a Bad Hire?</h3>
+          <p style="padding:20px 0px 40px;color:darkgrey;font-size:15px;">A bad hire may be unavoidable; sometimes candidates can have great CVs but may not be right fit for the role. But nonetheless, the mistake can cause serious problems for organisations.</p>
+          <button class="btn btn-info btn-outline-dark" style="border-radius:40px;height:60px;width:170px;color:white;border: 0px solid;">Contact Us</button>
+        </div>
+        <div class="col-3">
+          <div class="card bg-warning" style="color:white;padding:40px 40px;">
+            <div class="card-image-top" style="font-size:40px;"><i class="fa fa-credit-card" aria-hidden="true"></i></div>
+            <div class="body">
+              <h5 class="card-title"style="padding:20px 0px;">Hiring Cost</h5>
+              <p class="card-text">Cost of assessments, screening, selection and other hiring processes like travel costs, technology costs etc.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3"style="margin-top:-70px;">
+          <div class="card" style="color:white;padding:40px 40px;background-color:lightgreen;">
+            <div class="card-image-top" style="font-size:40px;"><i class="fa fa-exchange" aria-hidden="true"></i></div>
+            <div class="body">
+              <h5 class="card-title"style="padding:20px 0px;">Compensation</h5>
+              <p class="card-text">Salary given to a non-productive employee is as good as money poured down the drain.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="color:white;padding:40px 30px;background-color: mediumaquamarine;">
+            <div class="card-image-top" style="font-size:40px;"><i class="fa fa-life-ring" aria-hidden="true"></i></div>
+            <div class="body">
+              <h5 class="card-title"style="padding:20px 0px;">Maintenance</h5>
+              <p class="card-text">Trainings and benefits offered for employee skill enhancement, employee engagement and their welfare.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+
+        </div>
+        <div class="col-3"style="margin-top:-120px;">
+          <div class="card" style="color:white;padding:40px 30px;background-color:deepskyblue;">
+            <div class="card-image-top" style="font-size:40px;"><i class="fa fa-cubes" aria-hidden="true"></i></div>
+            <div class="body">
+              <h5 class="card-title"style="padding:20px 0px;">Severance</h5>
+              <p class="card-text">The cost of turnover in terms of exit formalities, severance packages and other pay-outs.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3"style="margin-top:-210px;">
+          <div class="card" style="color:white;padding:40px 30px;background-color:blue;">
+            <div class="card-image-top" style="font-size:40px;"><i class="fa fa-calculator" aria-hidden="true"></i></div>
+            <div class="body">
+              <h5 class="card-title"style="padding:20px 0px;">Opportunity costs</h5>
+              <p class="card-text">The costs that would have been saved, had a high-productive employee been hired in the first place.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3" style="margin-top:-120px;">
+          <div class="card" style="color:white;padding:40px 30px;background-color:blueviolet;">
+            <div class="card-image-top" style="font-size:40px;"><i class="fa fa-globe" aria-hidden="true"></i></div>
+            <div class="body">
+              <h5 class="card-title"style="padding:20px 0px;">Disruption costs</h5>
+              <p class="card-text">The spiralling impact on the overall team, which leads to disruption of culture and attitude.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- position-4 -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-7">
+          <img src="img/p3.png" height="900px" width="880px" style="margin-left:-180px;margin-top:-70px">
+        </div>
+        <div class="col-5" style="margin-top:130px;padding-left:10px;">
+          <h3>Our team spend tens of thousands of hours each year identifying the most promising candidates and applicants to join you as your valuable employees.</h3>
+          <ul style="margin-left:-15px;padding-top:20px">
+            <li>Complement and Transform candidate's technical skills into in-demand employable competencies</li>
+            <li>Provide a cohesive assessment platform that translates into higher earning</li>
+            <li>Provide a chance to interact with the best in the industry: to shape their skills with finesse</li>
+            <li>To let the employers access top-rated candidates suitable in the specific industry roles</li>
+            <li>Provide a chance to become a trusted expert on the platform and impart their skills to a larger</li>
+          </ul>
+          <div style="padding-top:20px;">
+            <button class="btn btn-info btn-outline-dark" style="border-radius:40px;height:60px;width:170px;color:white;border: 0px solid;">Contact Us</button>
+          </div>        
+        
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
